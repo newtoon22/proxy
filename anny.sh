@@ -23,7 +23,7 @@ echo
 echo
 echo
 echo =================================
-sudo service stat
+sudo service stat ; echo
 echo
 echo =================================
 sudo aptitude install proxychains
@@ -33,10 +33,10 @@ echo
 echo
 echo ================================
 echo Public IP
-wget -qO- http://ipecho.net/plain
+wget -qO- http://ipecho.net/plain ; echo
 echo
 echo
 echo Test ProxyChain
-proxychains wget -qO- http://ipecho.net/plain
+proxychains wget -qO- http://ipecho.net/plain ; echo
 echo =================================
 exit
