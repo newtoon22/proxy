@@ -17,7 +17,7 @@
 # First Install and run the TOR SERVICE
 sudo apt-get --yes install update
 sudo apt-get --yes install aptitude
-sudo aptitude tor
+sudo aptitude install tor
 sudo service tor start
 echo
 echo
