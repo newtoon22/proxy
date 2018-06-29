@@ -15,9 +15,9 @@
 # proxychains wget -qO- http://ipecho.net/plain
 
 # First Install and run the TOR SERVICE
-sudo apt-get --yes install update
-sudo apt-get --yes install aptitude
-sudo aptitude install tor
+sudo apt-get -y install update
+sudo apt-get -y install aptitude
+sudo aptitude -y install tor
 sudo service tor start
 echo
 echo
