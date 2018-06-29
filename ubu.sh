@@ -23,10 +23,10 @@ echo
 echo
 echo
 echo =================================
-sudo service stat ; echo
+sudo service tor status ; echo
 echo
 echo =================================
-sudo aptitude install proxychains
+sudo aptitude -y install proxychains
 sudo rm /etc/proxychains.conf
 sudo cp proxychains.conf /etc/
 echo
